@@ -1,0 +1,9 @@
+Arrays hold values of the same type at contiguous memory
+locations.
+
+In an array, we're usually concerned about two things -
+the position/index of an element and the element itself.
+
+In Python, and in also JavaScript, arrays (lists in Python)
+have a dynamic size which means that you don't need to have
+a size defined beforehand when creating the array.
