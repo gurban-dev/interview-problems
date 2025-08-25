@@ -16,12 +16,14 @@ Access: O(1)
 No matter how large the size of the array is (n), the time it
 takes to access an element at a certain index remains the same.
 <br>
+
 Search on an unsorted array: O(n)
 
 Must check each element one by one (linear search).
 
 O(n) in worst case.
 <br>
+
 Search on a sorted array: O(log n)
 
 Can use binary search (divide-and-conquer).
@@ -30,12 +32,14 @@ Cuts search space in half each step.
 
 O(log n) in worst case.
 <br>
+
 Insertion at the beginning or middle of the array: O(n)
 
 Requires shifting all later elements one position right.
 
 Worst case: shifting n elements.
 <br>
+
 Insertion at the end of the array: O(1)
 
 If there's empty space at the end of the array
@@ -48,11 +52,13 @@ Update the array’s size counter.
 This takes the same amount of time regardless of the size
 of the array (n).
 <br>
+
 Removal: O(n)
 
 Removal would require shifting all the subsequent elements
 to the left by one and that takes O(n)
 <br>
+
 Removal at the end of the array: O(1)
 
 When you remove the last element, there are no elements after
