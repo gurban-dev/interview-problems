@@ -16,7 +16,7 @@ Access: O(1)
 No matter how large the size of the array is (n), the time it
 takes to access an element at a certain index remains the same.
 <br>
-
+<br>
 Search on an unsorted array: O(n)
 
 Must check each element one by one (linear search).
