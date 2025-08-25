@@ -10,6 +10,7 @@ have a dynamic size which means that you don't need to have
 a size defined beforehand when creating the array.
 
 **Time Complexity for Array Operations**
+
 Access: O(1)
 
 No matter how large the size of the array is (n), the time it
