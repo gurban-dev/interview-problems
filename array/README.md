@@ -11,7 +11,7 @@ a size defined beforehand when creating the array.
 
 **Time Complexity for Array Operations**
 
-<u>Access: O(1)</u>
+*Access: O(1)*
 
 No matter how large the size of the array is (n), the time it
 takes to access an element at a certain index remains the same.
