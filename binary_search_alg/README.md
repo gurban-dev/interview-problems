@@ -10,6 +10,22 @@ Next step: you check n/2 and throw away half → n/4.
 
 Then n/8, n/16, … until only 1 item is left.
 
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+
+n = 16
+
+16 / 2 -> 8
+8 / 2 -> 4
+4 / 2 -> 2
+2 / 2 -> 1
+
+log₂(16) = 4
+
+2^4 = 16
+
+It took 4 times to divide 16 by 2 repeatedly until reaching
+1, which is why log₂(16) = 4.
+
 So the question is:
 How many times can you divide n by 2 before you reach 1?
 
