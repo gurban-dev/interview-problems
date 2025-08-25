@@ -1,4 +1,3 @@
-'''
 For a sorted array, searching can be carried out
 with the binary search algorithm.
 
@@ -59,4 +58,3 @@ to 32 steps.
 log₂(4 000 000 000) = 32
 
 2 ^ 32 = 4 294 967 296
-'''
