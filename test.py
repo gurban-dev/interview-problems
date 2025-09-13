@@ -45,4 +45,4 @@ def insertion_sort(arr):
 
 arr = [3, 2, 1]
 
-print(f'insertion_sort({arr}): {insertion_sort(arr)}')
+print(insertion_sort(arr))
