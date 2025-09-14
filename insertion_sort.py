@@ -43,6 +43,12 @@ def insertion_sort(arr):
     # arr becomes [1, 2, 3]
   return arr
 
-arr = [3, 2, 1]
+print('insertion_sort([]):', insertion_sort([]))
 
-print(f'insertion_sort({arr}): {insertion_sort(arr)}')
+print('insertion_sort([1]):', insertion_sort([1]))
+
+print('insertion_sort([3, 1]):', insertion_sort([3, 1]))
+
+print('insertion_sort([2, 3, 1]):', insertion_sort([2, 3, 1]))
+
+# print(f'insertion_sort([3, 2, 1]): {insertion_sort([3, 2, 1])}')
