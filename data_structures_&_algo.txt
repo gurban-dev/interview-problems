@@ -77,9 +77,13 @@ Backtracking algorithms
 Two pointer approach
 Sliding window
 
-Tim completed what ensues:
-60 leetcode questions
-50 algoexpert questions
+75-100 NeetCode questions should be sufficient.
+
+2-3 questions daily suffices.
+
+Watch the solution, make sure you comprehend it, and reattempt
+solving the problems.
+Keep practicing the same questions until the solution sticks.
 
 Comprehend the solution to each question.
 Repeat the solution until you understand it.
