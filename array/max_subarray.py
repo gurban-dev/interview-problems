@@ -1,4 +1,4 @@
-def max_sub_array(nums: list[int]) -> int:
+def find_max_sub_array(nums: list[int]) -> int:
   # Subarray with the largest sum.
   max_subarray: int = nums[0]
 
@@ -19,8 +19,8 @@ def max_sub_array(nums: list[int]) -> int:
     max_subarray = max(sum_of_current_subarray, max_subarray)
   return max_subarray
 
-print('max_sub_array([-2, 1, -3, 4, -1, 2, 1, -5, 4]):',
-      max_sub_array([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
+print('find_max_sub_array([-2, 1, -3, 4, -1, 2, 1, -5, 4]):',
+      find_max_sub_array([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
 
 # Input: [-2,1,-3,4,-1,2,1,-5,4]
 # Output: 6
